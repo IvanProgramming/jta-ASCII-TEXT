@@ -92,10 +92,6 @@ fun main(){
         for (i in 0..9) result[i+1] = "88  ${nameArray[i]}  88"
         var spacesBefore = (nameLength + 4 - statusLength)/2
         var spacesAfter = (nameLength + 4) - (spacesBefore + 2 + statusLength) + 2
-//        if (name == "Bill Gates") {
-//            spacesBefore = 37
-//            spacesAfter = 46
-//        }
         for (i in 0..2) {
             result[i + 11] = "88" + " ".repeat(spacesBefore) + statusArray[i]
             result[i + 11] += " ".repeat(spacesAfter) + "88"
